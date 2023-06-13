@@ -316,5 +316,12 @@ label {
     font-size: 12px;
     color: #00ffc2;
     font-weight: 400;
+    font-weight: 700;
+  }
+  .ftr {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-weight: 700;
   }
 }

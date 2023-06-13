@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/shutterstock_1412675750.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.nama {
+  font-size: 30px;
+  color: white;
+  margin: 20px;
+  display: flex;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.nama img {
+  width: 80px;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: -4px 0px 4px #696969, inset 0px 4px 4px rgba(255, 255, 255, 0.93);
+  backdrop-filter: blur(6px);
+  border-radius: 25px;
+  top: -10%;
+  width: 50%;
+  height: 50%;
+  padding: 5%;
+
+  margin: auto;
+}
+.textOpening {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.textOpening span {
+  font-size: 15px;
+  color: #00ffc2;
+  font-weight: 400;
+}
+form {
+  width: 100%;
+  height: 100%;
+}
+form input {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+label {
+  font-size: 18px;
+  color: white;
+}
+.btn1 {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00ffc2;
+  background: rgba(43, 43, 43, 0.22);
+  box-shadow: -8px -7px 4px rgba(119, 119, 119, 0.9),
+    8px 7px 4px rgba(0, 0, 0, 0.99);
+  border-radius: 10px;
+  border: none;
+}
+.btn2 {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00ffc2;
+  background: rgba(43, 43, 43, 0.22);
+  box-shadow: -8px -7px 4px rgba(119, 119, 119, 0.9),
+    8px 7px 4px rgba(0, 0, 0, 0.99);
+  border-radius: 10px;
+  border: none;
+}
+/* jawaban 1 */
+.jawaban1 {
+  display: none;
+  top: 15%;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+.jawaban1 span {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.jawaban1 span a {
+  color: #00ffc2;
+  font-weight: 400;
+}
+/* jawaban 2 */
+.jawaban2 {
+  display: none;
+  top: 15%;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+.jawaban2 span {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.jawaban2 span a {
+  color: #00ffc2;
+  font-weight: 400;
+}
+/* jawaban 3 */
+.jawaban3 {
+  display: none;
+  top: 15%;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+.jawaban3 span {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.jawaban3 span a {
+  color: #00ffc2;
+  font-weight: 400;
+}
+/* jawaban 4 */
+.jawaban4 {
+  display: none;
+  top: 15%;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+.jawaban4 span {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.jawaban4 span a {
+  color: #00ffc2;
+  font-weight: 400;
+}
+.icon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #00ffc2;
+  font-size: 25px;
+  display: none;
+}
+.icon2 {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: #00ffc2;
+  font-size: 25px;
+}
+
+.textClosing {
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.textClosing span {
+  font-size: 20px;
+  color: #00ffc2;
+  font-weight: 400;
+}
+.ftr {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  font-size: 12px;
+  color: white;
+}
+.ftr span {
+  font-size: 15px;
+  color: #00ffc2;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: -4px 0px 4px #696969,
+      inset 0px 4px 4px rgba(255, 255, 255, 0.93);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    width: 90%;
+    height: 70%;
+    padding: 2%;
+    top: -15%;
+    margin: auto;
+  }
+  .textOpening {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    margin: 15%;
+  }
+
+  .textOpening span {
+    font-size: 12px;
+    color: #00ffc2;
+    font-weight: 400;
+  }
+  .btn1 {
+    padding: 8px 25px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .btn2 {
+    padding: 8px 25px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  form {
+    width: 100%;
+    height: 100%;
+  }
+  form input {
+    width: 15px;
+    height: 20px;
+    margin: 10px;
+  }
+  label {
+    font-size: 13px;
+    color: white;
+  }
+  /* jawaban 1 */
+  .jawaban1 {
+    font-size: 13px;
+  }
+  .jawaban1 span {
+    font-size: 10px;
+  }
+  /* jawaban 2 */
+  .jawaban2 {
+    font-size: 13px;
+  }
+  .jawaban2 span {
+    font-size: 10px;
+  }
+  /* jawaban 3 */
+  .jawaban3 {
+    font-size: 13px;
+  }
+  .jawaban3 span {
+    font-size: 10px;
+  }
+  /* jawaban 4 */
+  .jawaban4 {
+    font-size: 13px;
+  }
+  .jawaban4 span {
+    font-size: 10px;
+  }
+
+  .textClosing {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    margin: 15%;
+  }
+
+  .textClosingspan {
+    font-size: 12px;
+    color: #00ffc2;
+    font-weight: 400;
+  }
+}
